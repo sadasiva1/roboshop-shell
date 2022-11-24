@@ -7,7 +7,7 @@ systemctl enable mysqld
 systemctl restart mysqld
 
 touch /tmp/root-pass-mysql
-sed -i -e "1 c ALTER USER 'root'@'localhost' IDENTIFIED BY 'RoboShop@1';" >/tmp/root-pass-mysql
+sed -i -e "1 c ALTER USER 'root'@'localhost' IDENTIFIED BY 'RoboShop@1';" /tmp/root-pass-mysql
 DEFAULT_PASSWORD=$(grep 'A temporary password' var/log/mysqld.log | awk '{print=NF}')
 
 #cat /tmp/root-pass-mysql | mysql --connect-expired-password -uroot -p"flRCi4Bfr_qf"
