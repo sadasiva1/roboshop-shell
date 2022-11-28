@@ -1,48 +1,38 @@
+if [ -z "$1" ]; then
+  echo Input argument Password Is Needed
+  exit
+fi
+
 ROBOSHOP_MYSQL_PASSWORD=$1
+
+STAT(){
+if [ $1 -eq 0 ]; then
+   echo SUCCESS
+else
+  echo FAILURE
+  exit
+fi
+}
 
 echo -e "\e[33mMySQL Repo Downloading\e[0m"
 curl -s -L -o /etc/yum.repos.d/mysql.repo https://raw.githubusercontent.com/roboshop-devops-project/mysql/main/mysql.repo
-if [ $? -eq 0 ]; then
-   echo SUCCESS
-else
-  echo FAILURE
-  exit
-fi
+STAT $1
 
 echo Disable MySQL 8 Version Repo
 dnf module disable mysql -y
-if [ $? -eq 0 ]; then
-   echo SUCCESS
-else
-  echo FAILURE
-  exit
-fi
+STAT $1
 
 echo MySQL Install
 yum install mysql-community-server -y
-if [ $? -eq 0 ]; then
-   echo SUCCESS
-else
-  echo FAILURE
-  exit
-fi
+STAT $1
 
 echo Enable MySQL Service
 systemctl enable mysqld
-if [ $? -eq 0 ]; then
-   echo SUCCESS
-else
-  echo FAILURE
-  exit
-fi
+STAT #1
 
 echo MySQL Start MySQL Service
 systemctl restart mysqld
-if [ $? -eq 0 ]; then
-   echo SUCCESS
-else
-  echo FAILURE
-fi
+STAT $1
 
 echo show databases | mysql -uroot -p${ROBOSHOP_MYSQL_PASSWORD}
 if [ $? -ne 0 ];
