@@ -16,23 +16,23 @@ fi
 
 echo -e "\e[33mMySQL Repo Downloading\e[0m"
 curl -s -L -o /etc/yum.repos.d/mysql.repo https://raw.githubusercontent.com/roboshop-devops-project/mysql/main/mysql.repo
-STAT $1
+STAT $?
 
 echo Disable MySQL 8 Version Repo
 dnf module disable mysql -y
-STAT $1
+STAT $?
 
 echo MySQL Install
 yum install mysql-community-server -y
-STAT $1
+STAT $?
 
 echo Enable MySQL Service
 systemctl enable mysqld
-STAT #1
+STAT $?
 
 echo MySQL Start MySQL Service
 systemctl restart mysqld
-STAT $1
+STAT $?
 
 echo show databases | mysql -uroot -p${ROBOSHOP_MYSQL_PASSWORD}
 if [ $? -ne 0 ];
