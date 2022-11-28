@@ -4,6 +4,7 @@ if [ $? -eq 0 ]; then
    echo SUCCESS
 else
   echo FAILURE
+  exit
 fi
 
 echo Disable MySQL 8 Version Repo
@@ -12,6 +13,7 @@ if [ $? -eq 0 ]; then
    echo SUCCESS
 else
   echo FAILURE
+  exit
 fi
 
 echo MySQL Install
@@ -20,6 +22,7 @@ if [ $? -eq 0 ]; then
    echo SUCCESS
 else
   echo FAILURE
+  exit
 fi
 
 echo Enable MySQL Service
@@ -28,7 +31,8 @@ if [ $? -eq 0 ]; then
    echo SUCCESS
 else
   echo FAILURE
-  fi
+  exit
+fi
 
 echo MySQL Start MySQL Service
 systemctl restart mysqld
