@@ -14,23 +14,27 @@ else
 fi
 }
 
-echo -e "\e[33mMySQL Repo Downloading\e[0m"
+PRINT(){
+  echo "\e[33m=$1\e[0m"
+  }
+
+PRINT "MySQL Repo Downloading"
 curl -s -L -o /etc/yum.repos.d/mysql.repo https://raw.githubusercontent.com/roboshop-devops-project/mysql/main/mysql.repo
 STAT $?
 
-echo Disable MySQL 8 Version Repo
+PRINT "Disable MySQL 8 Version Repo"
 dnf module disable mysql -y
 STAT $?
 
-echo MySQL Install
+PRINT "MySQL Install"
 yum install mysql-community-server -y
 STAT $?
 
-echo Enable MySQL Service
+PRINT "Enable MySQL Service"
 systemctl enable mysqld
 STAT $?
 
-echo MySQL Start MySQL Service
+PRINT "MySQL Start MySQL Service"
 systemctl restart mysqld
 STAT $?
 
@@ -43,3 +47,4 @@ then
  cat /tmp/root-pass-sql | mysql --connect-expired-password -uroot -p"${DEFAULT_PASSWORD}"
 
 fi
+}
