@@ -21,7 +21,7 @@ curl -s -L -o /tmp/cart.zip "https://github.com/roboshop-devops-project/cart/arc
 STAT $?
 
 PRINT "Remove Previous Version App"
-cd /home/roboshop
+cd /home/roboshop &>>$LOG
 rm -rf cart &>>$LOG
 STAT $?
 
