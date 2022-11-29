@@ -11,7 +11,7 @@ STAT $?
 
 PRINT "Adding Apllication User"
 id roboshop &>>$LOG
-if [ $? -ne 0 ]; then
+if [ $? -ne 0 ];then
  useradd roboshop &>>$LOG
 fi
 STAT $?
