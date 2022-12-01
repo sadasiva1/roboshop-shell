@@ -5,6 +5,15 @@ fi
 
 ROBOSHOP_MYSQL_PASSWORD=$1
 
+STAT() {
+if [ $1 -eq 0 ]; then
+  echo SUCCESS
+else
+  echo FAILURE
+  exit
+ fi
+}
+
 PRINT "MySQL Repo Downloading"
 curl -s -L -o /etc/yum.repos.d/mysql.repo https://raw.githubusercontent.com/roboshop-devops-project/mysql/main/mysql.repo
 STAT $?
