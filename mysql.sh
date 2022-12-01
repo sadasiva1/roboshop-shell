@@ -30,7 +30,7 @@ PRINT "Enable MySQL Service"
 systemctl enable mysqld
 STAT $?
 
-PRINT "MySQL reStart MySQL Service"
+PRINT "MySQL Start MySQL Service"
 systemctl restart mysqld
 STAT $?
 
