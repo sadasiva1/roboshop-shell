@@ -37,7 +37,7 @@ npm install &>>$LOG
 STAT $?
 
 PRINT "Configure Endpoints For SystemD Configuration"
-sed -i -e 's/REDIS_ENDPOINT/redis.sadasiva.online/' -e 's/CATALOGUE_ENDPOINT/catalogue.sadasiva.online/' &>>$LOG
+sed -i -e 's/REDIS_ENDPOINT/redis.sadasiva.online/' -e 's/CATALOGUE_ENDPOINT/catalogue.sadasiva.online/' /home/roboshop/cart/systemd.service &>>$LOG
 STAT $?
 
 PRINT "Reload SystemD"
