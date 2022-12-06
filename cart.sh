@@ -32,6 +32,8 @@ STAT $?
 mv cart-main cart
 cd cart
 
+mv /home/roboshop/cart/systemd.service /etc/systemd/system/cart.service
+
 PRINT "Install NodeJs Dependencies App"
 npm install &>>$LOG
 STAT $?
