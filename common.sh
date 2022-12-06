@@ -33,38 +33,38 @@ NODEJS() {
   STAT $?
 
   PRINT "Download App Content"
-  curl -s -L -o /tmp/${COMPONET}.zip "https://github.com/roboshop-devops-project/${COMPONET}/archive/main.zip" &>>$LOG
+  curl -s -L -o /tmp/${COMPONENT}.zip "https://github.com/roboshop-devops-project/${COMPONENT}/archive/main.zip" &>>$LOG
   STAT $?
 
   PRINT "Remove Previous Version App"
   cd /home/roboshop &>>$LOG
-  rm -rf ${COMPONET} &>>$LOG
+  rm -rf ${COMPONENT} &>>$LOG
   STAT $?
 
   PRINT "Extracting App Content"
-  unzip -o /tmp/${COMPONET}.zip &>>$LOG
+  unzip -o /tmp/${COMPONENT}.zip &>>$LOG
   STAT $?
 
-  mv ${COMPONET}-main ${COMPONET}
-  cd ${COMPONET}
+  mv ${COMPONENT}-main ${COMPONENT}
+  cd ${COMPONENT}
 
   PRINT "Install NodeJs Dependencies App"
   npm install &>>$LOG
   STAT $?
 
   PRINT "Configure Endpoints For SystemD Configuration"
-  sed -i -e 's/REDIS_ENDPOINT/redis.sadasiva.online/' -e 's/CATALOGUE_ENDPOINT/catalogue.sadasiva.online/' /home/roboshop/${COMPONET}/systemd.service &>>$LOG
+  sed -i -e 's/REDIS_ENDPOINT/redis.sadasiva.online/' -e 's/CATALOGUE_ENDPOINT/catalogue.sadasiva.online/' /home/roboshop/${COMPONENT}/systemd.service &>>$LOG
   STAT $?
 
   PRINT "Reload SystemD"
   systemctl daemon-reload &>>$LOG
   STAT $?
 
-  PRINT "Restart ${COMPONET}"
+  PRINT "Restart ${COMPONENT}"
   systemctl restart ${COMPONET} &>>$LOG
   STAT $?
 
-  PRINT "Enable ${COMPONET} Service"
+  PRINT "Enable ${COMPONENT} Service"
   systemctl enable ${COMPONET} &>>$LOG
   STAT $?
 
