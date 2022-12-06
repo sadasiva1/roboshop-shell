@@ -52,10 +52,8 @@ NODEJS() {
   npm install &>>$LOG
   STAT $?
 
-SYSTEMD_SETUP() {
   PRINT "Configure Endpoints For SystemD Configuration"
   sed -i -e 's/REDIS_ENDPOINT/redis.sadasiva.online/' -e 's/CATALOGUE_ENDPOINT/catalogue.sadasiva.online/' /home/roboshop/${COMPONENT}/systemd.service &>>$LOG
-  mv /home/roboshop/${COMPONENT}/systemd.service /etc/systemd/system/${COMPONENT}.service
   STAT $?
 
   PRINT "Reload SystemD"
@@ -63,10 +61,10 @@ SYSTEMD_SETUP() {
   STAT $?
 
   PRINT "Restart ${COMPONENT}"
-  systemctl restart ${COMPONET} &>>$LOG
+  systemctl restart ${COMPONENT} &>>$LOG
   STAT $?
 
   PRINT "Enable ${COMPONENT} Service"
-  systemctl enable ${COMPONET} &>>$LOG
+  systemctl enable ${COMPONENT} &>>$LOG
   STAT $?
 }
