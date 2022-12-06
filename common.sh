@@ -54,6 +54,7 @@ NODEJS() {
 
   PRINT "Configure Endpoints For SystemD Configuration"
   sed -i -e 's/REDIS_ENDPOINT/redis.sadasiva.online/' -e 's/CATALOGUE_ENDPOINT/catalogue.sadasiva.online/' /home/roboshop/${COMPONENT}/systemd.service &>>$LOG
+  mv /home/roboshop/${COMPONENT}/systemd.service /etc/systemd/system/${COMPONENT}.service
   STAT $?
 
   PRINT "Reload SystemD"
