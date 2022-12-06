@@ -10,3 +10,10 @@ unzip -o /tmp/catalogue.zip
 mv catalogue-main catalogue
 cd /home/roboshop/catalogue
 npm install
+
+sed -i -e 's/MONGO_DNSNAME/mongodb.sadasiva.online/' systemd.service
+
+mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
+systemctl daemon-reload
+systemctl restart catalogue
+systemctl enable catalogue
