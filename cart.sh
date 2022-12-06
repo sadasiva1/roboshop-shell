@@ -52,7 +52,3 @@ PRINT "Enable Cart Service"
 systemctl enable cart &>>$LOG
 STAT $?
 
-unlink /etc/rc.d/init.d/cart
-cp /home/roboshop/etc/init.d/cart /etc/rc.d/init.d/cart
-service cart restart
-
