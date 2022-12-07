@@ -16,7 +16,25 @@ PRINT() {
 LOG=/tmp/$COMPONENT.log
 rm -f $LOG
 
+DOWNLOAD_APP_CODE() {
+  PRINT "Download App Content"
+  curl -s -L -o /tmp/$COMPONENT.zip "https://github.com/roboshop-devops-project/$COMPONENT/archive/main.zip" &>>$LOG
+  STAT $?
+
+  PRINT "Removing Previous Version Of App"
+  cd $APP_LOC &>>$LOG
+  rm -rf $CONTENT &>>$LOG
+  STAT $?
+
+  PRINT "Extracting App Content"
+  unzip -o /tmp/${COMPONENT}.zip &>>$LOG
+  STAT $?
+
+  }
+
 NODEJS() {
+  APP_LOC=/home/roboshop
+  CONTENT=$COMPONENT
   PRINT "Install NodeJs Repos"
   curl -sL https://rpm.nodesource.com/setup_lts.x | bash &>>$LOG
   STAT $?
@@ -32,43 +50,31 @@ NODEJS() {
   fi
   STAT $?
 
-  PRINT "Download App Content"
-  curl -s -L -o /tmp/$COMPONENT.zip "https://github.com/roboshop-devops-project/$COMPONENT/archive/main.zip" &>>$LOG
-  STAT $?
-
-  PRINT "Removing Previous Version Of App"
-  cd /home/roboshop &>>$LOG
-  rm -rf $COMPONENT &>>$LOG
-  STAT $?
-
-  PRINT "Extracting App Content"
-  unzip -o /tmp/$COMPONENT.zip &>>$LOG
-  STAT $?
-
-  mv $COMPONENT-main $COMPONENT
-  cd $COMPONENT
+  mv ${COMPONENT}-main ${COMPONENT}
+  cd ${COMPONENT}
 
   PRINT "Install NodeJs Dependencies For App"
   npm install &>>$LOG
   STAT $?
 
   PRINT "Configure Endpoints For SystemD Configuration"
-  sed -i -e 's/REDIS_ENDPOINT/redis.sadasiva.online/' -e 's/CATALOGUE_ENDPOINT/catalogue.sadasiva.online/' /home/roboshop/$COMPONENT/systemd.service &>>$LOG
+  sed -i -e 's/REDIS_ENDPOINT/redis.sadasiva.online/' -e 's/CATALOGUE_ENDPOINT/catalogue.sadasiva.online/' /home/roboshop/${COMPONENT}/systemd.service &>>$LOG
   STAT $?
 
   PRINT "Setup SystemD Service"
-  mv /home/roboshop/$COMPONENT/systemd.service /etc/systemd/system/$COMPONENT.service &>>$LOG
+  mv /home/roboshop/${COMPONENT}/systemd.service /etc/systemd/system/${COMPONENT}.service &>>$LOG
   STAT $?
 
   PRINT "Reload SystemD"
   systemctl daemon-reload &>>$LOG
   STAT $?
 
-  PRINT "Restart $COMPONENT"
-  systemctl restart $COMPONENT &>>$LOG
+  PRINT "Restart ${COMPONENT}"
+  systemctl restart ${COMPONENT} &>>$LOG
   STAT $?
 
-  PRINT "Enable $COMPONENT Service"
-  systemctl enable $COMPONENT &>>$LOG
+  PRINT "Enable ${COMPONENT} Service"
+  systemctl enable ${COMPONENT} &>>$LOG
   STAT $?
+}
 }
