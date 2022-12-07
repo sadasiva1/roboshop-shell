@@ -12,25 +12,29 @@ STAT() {
    echo FAILURE
    exit
   fi
+ }
+
+PRINT() {
+  echo -e "\e[33m$1\e[0m"
 }
 
 echo -e "\e[33mDownloading MYSQL Repo File\e[0m"
 curl -s -L -o /etc/yum.repos.d/mysql.repo https://raw.githubusercontent.com/roboshop-devops-project/mysql/main/mysql.repo
 STAT $?
 
-echo Disable MYSQL 8 Version Repo
+PRINT "Disable MYSQL 8 Version Repo"
 dnf module disable mysql -y
 STAT $?
 
-echo Install MYSQL
+PRINT "Install MYSQL"
 yum install mysql-community-server -y
 STAT $?
 
-echo Enable MYSQL Service
+PRINT "Enable MYSQL Service"
 systemctl enable mysqld
 STAT $?
 
-echo Start MYSQL Service
+PRINT "Start MYSQL Service"
 systemctl restart mysqld
 STAT $?
 
