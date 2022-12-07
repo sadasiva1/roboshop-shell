@@ -1,5 +1,5 @@
 if [ -z "$1" ]; then
-  echo input argument Password is needed
+  echo Input argument Password is needed
   exit
 fi
 
