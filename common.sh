@@ -79,3 +79,5 @@ NODEJS() {
   systemctl enable ${COMPONENT} &>>$LOG
   STAT $?
 }
+
+
