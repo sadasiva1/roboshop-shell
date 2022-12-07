@@ -87,6 +87,7 @@ NODEJS() {
   STAT $?
 
  SYSTEMD_SETUP
+ }
 
 JAVA() {
   APP_LOC=/home/roboshop
