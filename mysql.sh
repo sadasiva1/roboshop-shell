@@ -2,6 +2,7 @@ if [ -z "$1" ]; then
   echo input argument is needed
   exit
 fi
+
 ROBOSHOP_MYSQL_PASSWORD=$1
 
 STAT() {
@@ -11,6 +12,7 @@ STAT() {
    echo FAILURE
    exit
   fi
+}
 
 echo -e "\e[33mDownloading MYSQL Repo File\e[0m"
 curl -s -L -o /etc/yum.repos.d/mysql.repo https://raw.githubusercontent.com/roboshop-devops-project/mysql/main/mysql.repo
