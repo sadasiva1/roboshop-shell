@@ -12,6 +12,6 @@ PRINT() {
   echo -e "\e[33m$1\e[0m"
 }
 
-LOG=/tmp/COMPONENT.log
+LOG=/tmp/$COMPONENT.log
 rm -f $LOG
 
