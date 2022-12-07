@@ -1,4 +1,4 @@
-cource common.sh
+source common.sh
 
 PRINT "Install NodeJs Repos"
 curl -sL https://rpm.nodesource.com/setup_lts.x | bash
