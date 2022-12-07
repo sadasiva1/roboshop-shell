@@ -10,7 +10,7 @@ yum install -y mongodb-org &>>$LOG
 STAT $?
 
 PRINT "Configure MongoDB Listen Address"
-sed -i -e 's/127.0.0.1/0.0.0.0' /etc/mongo.conf &>>$LOG
+sed -i -e 's/127.0.0.1/0.0.0.0/' /etc/mongo.conf &>>$LOG
 STAT $?
 
 PRINT "Enable MongoDB"
