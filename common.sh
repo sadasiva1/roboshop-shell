@@ -71,7 +71,7 @@ NODEJS() {
   STAT $?
 
   PRINT "Adding Apllication User"
-  id roboshop &>>LOG
+  id roboshop &>>$LOG
   if [ $? -ne 0 ]; then
    useradd roboshop &>>$LOG
   fi
@@ -85,8 +85,8 @@ NODEJS() {
   PRINT "Install NodeJs Dependencies For App"
   npm install &>>$LOG
   STAT $?
+
  SYSTEMD_SETUP
- }
 
 JAVA() {
   APP_LOC=/home/roboshop
