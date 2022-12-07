@@ -88,15 +88,14 @@ NODEJS() {
  SYSTEMD_SETUP
  }
 
-JAVA(){
+JAVA() {
   APP_LOC=/home/roboshop
   CONTENT=$COMPONENT
   APP_USER=roboshop
+
   PRINT "Install Maven"
   yum install maven -y &>>$LOG
   STAT $?
-
-  useradd roboshop
 
   DOWNLOAD_APP_CODE
 
