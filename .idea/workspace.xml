@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeffdd86-0775-49d5-97cd-3c7f534fe734" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/route53.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/create-roboshop-servers.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creating-roboshop-servers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/creating-roboshop-servers.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route53.json" beforeDir="false" afterPath="$PROJECT_DIR$/route53.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +37,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669216106137</updated>
-    </task>
-    <task id="LOCAL-00106" summary="MySql Script">
-      <created>1670393862267</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1670393862267</updated>
     </task>
     <task id="LOCAL-00107" summary="MySql Script">
       <created>1670394142922</created>
@@ -383,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670485209005</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="Shipping Script">
+      <created>1670493160057</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1670493160059</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
