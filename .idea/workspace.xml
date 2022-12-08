@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eeffdd86-0775-49d5-97cd-3c7f534fe734" name="Changes" comment="Shipping Script" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Hx9wdam7fgCKjCduFGioQbNxJE" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Intel/Git-Repos/roboshop-shell&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eeffdd86-0775-49d5-97cd-3c7f534fe734" name="Changes" comment="" />
+      <created>1669216106137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669216106137</updated>
+    </task>
+    <task id="LOCAL-00102" summary="MySql Script">
+      <created>1670393159198</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1670393159198</updated>
+    </task>
+    <task id="LOCAL-00103" summary="MySql Script">
+      <created>1670393324152</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1670393324152</updated>
+    </task>
+    <task id="LOCAL-00104" summary="MySql Script">
+      <created>1670393528915</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1670393528915</updated>
+    </task>
+    <task id="LOCAL-00105" summary="MySql Script">
+      <created>1670393576463</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1670393576463</updated>
+    </task>
+    <task id="LOCAL-00106" summary="MySql Script">
+      <created>1670393862267</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1670393862267</updated>
+    </task>
+    <task id="LOCAL-00107" summary="MySql Script">
+      <created>1670394142922</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1670394142922</updated>
+    </task>
+    <task id="LOCAL-00108" summary="MySql Script">
+      <created>1670394333924</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1670394333924</updated>
+    </task>
+    <task id="LOCAL-00109" summary="MySql Script">
+      <created>1670395194773</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1670395194773</updated>
+    </task>
+    <task id="LOCAL-00110" summary="MySql Script">
+      <created>1670395617903</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1670395617903</updated>
+    </task>
+    <task id="LOCAL-00111" summary="MySql Script">
+      <created>1670396128893</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1670396128893</updated>
+    </task>
+    <task id="LOCAL-00112" summary="MySql Script">
+      <created>1670396785213</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1670396785213</updated>
+    </task>
+    <task id="LOCAL-00113" summary="MySql Script">
+      <created>1670396889453</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1670396889453</updated>
+    </task>
+    <task id="LOCAL-00114" summary="MySql Script">
+      <created>1670396970736</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1670396970736</updated>
+    </task>
+    <task id="LOCAL-00115" summary="MySql Script">
+      <created>1670397076565</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1670397076565</updated>
+    </task>
+    <task id="LOCAL-00116" summary="MySql Script">
+      <created>1670397713818</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1670397713818</updated>
+    </task>
+    <task id="LOCAL-00117" summary="MySql Script">
+      <created>1670397760928</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1670397760928</updated>
+    </task>
+    <task id="LOCAL-00118" summary="MySql Script">
+      <created>1670397844583</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1670397844583</updated>
+    </task>
+    <task id="LOCAL-00119" summary="MySql Script">
+      <created>1670398860108</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1670398860108</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Cart Script">
+      <created>1670405424006</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1670405424006</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Cart Script">
+      <created>1670405703925</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1670405703925</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Cart Script">
+      <created>1670408405183</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1670408405183</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Cart Script">
+      <created>1670408526092</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1670408526092</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Cart Script">
+      <created>1670408679240</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1670408679240</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Cart Script">
+      <created>1670408752773</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1670408752773</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Cart Script">
+      <created>1670408929383</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1670408929383</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Cart Script">
+      <created>1670409379549</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1670409379549</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Cart Script">
+      <created>1670409945296</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1670409945296</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Cart Script">
+      <created>1670411426435</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1670411426435</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Cart Script">
+      <created>1670411562679</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1670411562679</updated>
+    </task>
+    <task id="LOCAL-00131" summary="Cart Script">
+      <created>1670411939174</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1670411939174</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Cart Script">
+      <created>1670412271351</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1670412271351</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Cart Script">
+      <created>1670412908546</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1670412908546</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Cart Script">
+      <created>1670413062394</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1670413062394</updated>
+    </task>
+    <task id="LOCAL-00135" summary="Cart Script">
+      <created>1670413357485</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1670413357485</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Cart Script">
+      <created>1670414133421</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1670414133421</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Cart Script">
+      <created>1670414557294</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1670414557294</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Cart Script">
+      <created>1670415337842</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1670415337842</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Cart Script">
+      <created>1670415563463</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1670415563463</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Cart Script">
+      <created>1670416176806</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1670416176806</updated>
+    </task>
+    <task id="LOCAL-00141" summary="Cart Script">
+      <created>1670416498720</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1670416498720</updated>
+    </task>
+    <task id="LOCAL-00142" summary="Cart Script">
+      <created>1670416672895</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1670416672895</updated>
+    </task>
+    <task id="LOCAL-00143" summary="Cart Script">
+      <created>1670417016923</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1670417016923</updated>
+    </task>
+    <task id="LOCAL-00144" summary="Shipping Script">
+      <created>1670418823373</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1670418823373</updated>
+    </task>
+    <task id="LOCAL-00145" summary="Shipping Script">
+      <created>1670419115902</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1670419115902</updated>
+    </task>
+    <task id="LOCAL-00146" summary="Shipping Script">
+      <created>1670419192923</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1670419192923</updated>
+    </task>
+    <task id="LOCAL-00147" summary="Shipping Script">
+      <created>1670419300868</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1670419300868</updated>
+    </task>
+    <task id="LOCAL-00148" summary="Shipping Script">
+      <created>1670419381624</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1670419381624</updated>
+    </task>
+    <task id="LOCAL-00149" summary="Shipping Script">
+      <created>1670480699760</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1670480699760</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Shipping Script">
+      <created>1670481051306</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1670481051306</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Frontend Script" />
+    <MESSAGE value="Mongo Script" />
+    <MESSAGE value="Mysql Script" />
+    <MESSAGE value="Catalogue Script" />
+    <MESSAGE value="Redis Script" />
+    <MESSAGE value="User Script" />
+    <MESSAGE value="MySql Script" />
+    <MESSAGE value="Cart Script" />
+    <MESSAGE value="Shipping Script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shipping Script" />
+  </component>
+</project>
