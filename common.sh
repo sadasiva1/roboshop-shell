@@ -25,7 +25,6 @@ DOWNLOAD_APP_CODE() {
    fi
    STAT $?
   fi
-  }
 
   PRINT "Download App Content"
   curl -s -L -o /tmp/$COMPONENT.zip "https://github.com/roboshop-devops-project/$COMPONENT/archive/main.zip" &>>$LOG
@@ -39,6 +38,7 @@ DOWNLOAD_APP_CODE() {
   PRINT "Extracting App Content"
   unzip -o /tmp/${COMPONENT}.zip &>>$LOG
   STAT $?
+}
 
   SYSTEMD_SETUP() {
   PRINT "Configure Endpoints For SystemD Configuration"
