@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeffdd86-0775-49d5-97cd-3c7f534fe734" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/common.sh" afterDir="false" />
+    <list default="true" id="eeffdd86-0775-49d5-97cd-3c7f534fe734" name="Changes" comment="Shipping Script">
+      <change afterPath="$PROJECT_DIR$/payment.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +38,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669216106137</updated>
-    </task>
-    <task id="LOCAL-00111" summary="MySql Script">
-      <created>1670396128893</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1670396128893</updated>
     </task>
     <task id="LOCAL-00112" summary="MySql Script">
       <created>1670396785213</created>
@@ -380,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670497057388</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="Shipping Script">
+      <created>1670497808035</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1670497808035</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
