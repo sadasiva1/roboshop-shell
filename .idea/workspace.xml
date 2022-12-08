@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeffdd86-0775-49d5-97cd-3c7f534fe734" name="Changes" comment="Shipping Script" />
+    <list default="true" id="eeffdd86-0775-49d5-97cd-3c7f534fe734" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/route53.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-roboshop-servers.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creating-roboshop-servers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/creating-roboshop-servers.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,34 +39,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669216106137</updated>
-    </task>
-    <task id="LOCAL-00102" summary="MySql Script">
-      <created>1670393159198</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1670393159198</updated>
-    </task>
-    <task id="LOCAL-00103" summary="MySql Script">
-      <created>1670393324152</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1670393324152</updated>
-    </task>
-    <task id="LOCAL-00104" summary="MySql Script">
-      <created>1670393528915</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1670393528915</updated>
-    </task>
-    <task id="LOCAL-00105" summary="MySql Script">
-      <created>1670393576463</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1670393576463</updated>
     </task>
     <task id="LOCAL-00106" summary="MySql Script">
       <created>1670393862267</created>
@@ -378,7 +355,35 @@
       <option name="project" value="LOCAL" />
       <updated>1670481051306</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="Shipping Script">
+      <created>1670484630383</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1670484630383</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Shipping Script">
+      <created>1670484654023</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1670484654023</updated>
+    </task>
+    <task id="LOCAL-00153" summary="Shipping Script">
+      <created>1670484819480</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1670484819480</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Shipping Script">
+      <created>1670485209005</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1670485209005</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
