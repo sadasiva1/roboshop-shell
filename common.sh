@@ -43,7 +43,7 @@ DOWNLOAD_APP_CODE() {
 
   SYSTEMD_SETUP() {
   PRINT "Configure Endpoints For SystemD Configuration"
-  sed -i -e 's/REDIS_ENDPOINT/redis.sadasiva.online/' -e 's/CATALOGUE_ENDPOINT/catalogue.sadasiva.online/' /home/roboshop/${COMPONENT}/systemd.service &>>$LOG
+  sed -i -e 's/MONGO_DNSNAME/dev-mongodb.sadasiva.online/' -e 's/REDIS_ENDPOINT/dev-redis.sadasiva.online/' -e 's/CATALOGUE_ENDPOINT/dev-catalogue.sadasiva.online/' -e 's/MONGO_ENDPOINT/dev-mongodb.sadasiva.online/' -e 's/CARTENDPOINT/dev-cart.sadasiva.online/' -e 's/DBHOST/dev-mysql.sadasiva.online/' -e 's/AMQPHOST/dev-rabbitmq.sadasiva.online/' -e 's/CARTHOST/dev-cart.sadasiva.online/' -e 's/USERHOST/dev-user.sadasiva.online/' /home/roboshop/${COMPONENT}/systemd.service &>>$LOG
   mv /home/roboshop/${COMPONENT}/systemd.service /etc/systemd/system/${COMPONENT}.service
   STAT $?
 

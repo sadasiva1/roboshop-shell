@@ -27,3 +27,5 @@ STAT $?
 PRINT "Start Nginx Service"
 systemctl restart nginx &>>$LOG
 STAT $?
+
+
