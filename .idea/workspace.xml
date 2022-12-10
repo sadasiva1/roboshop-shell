@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeffdd86-0775-49d5-97cd-3c7f534fe734" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/common.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/frontend.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mysql.sh" afterDir="false" />
-    </list>
+    <list default="true" id="eeffdd86-0775-49d5-97cd-3c7f534fe734" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,13 +34,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669216106137</updated>
-    </task>
-    <task id="LOCAL-00117" summary="MySql Script">
-      <created>1670397760928</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1670397760928</updated>
     </task>
     <task id="LOCAL-00118" summary="MySql Script">
       <created>1670397844583</created>
@@ -383,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670510195228</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Shipping Script">
+      <created>1670649191540</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1670649191540</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
